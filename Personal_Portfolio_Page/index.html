@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Lato&display=swap" rel="stylesheet">
+        <style>
+            :root {
+                --primary: #2A2A2A;
+                --secondary: #F8F9FA;
+                --accent: #007BFF;
+                --text: #212529;
+                --highlight: #FF6B6B;
+                --hover: #007BFF;
+            }
+            .project-section {
+            position: relative;
+            min-height: 120px;
+            }
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 20px;
+                background-color: var(--secondary);
+                color: var(--text);
+            }
+        
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+            }
+        
+            header {
+                text-align: center;
+                padding: 40px 0;
+                background: linear-gradient(45deg, var(--primary), #1A1A1A);
+                color: white;
+                border-radius: 10px;
+                margin-bottom: 30px;
+            }
+        
+            h1 {
+                font-size: 2.5rem;
+                margin: 10px 0;
+                color: var(--secondary);
+            }
+        
+            h2 {
+                color: var(--primary);
+                border-bottom: 2px solid var(--accent);
+                padding-bottom: 5px;
+                margin-top: 30px;
+            }
+        
+            .social-links {
+                display: flex;
+                gap: 20px;
+                margin-top: 30px;
+            }
+        
+            .social-links a {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                text-decoration: none;
+                color: var(--primary);
+                transition: color 0.3s ease;
+            }
+        
+            .social-links a:hover {
+                color: var(--accent);
+            }
+        
+            .social-links img {
+                transition: transform 0.3s ease;
+            }
+        
+            .social-links a:hover img {
+                transform: scale(1.1);
+            }
+        
+            .section {
+                background: white;
+                padding: 25px;
+                border-radius: 8px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                margin-bottom: 25px;
+            }
+            .project-card {
+                padding: 15px;
+                border-left: 4px solid var(--accent);
+                margin: 10px 0;
+                background: #fff;
+                display: flex;
+            }
+            .project-card a {
+                text-decoration: none;
+                color: black;
+                transition: color 0.3s ease;
+            }
+            .project-card:hover {
+                background: var(--hover);
+                color: white;
+                transition: background 0.3s ease;
+            }
+            .skill-tag {
+                display: inline-block;
+                padding: 5px 15px;
+                background: var(--secondary);
+                border-radius: 20px;
+                margin: 5px;
+                font-size: 0.9em;
+            }
+            .skill-tag:hover {
+                background: var(--hover);
+                color: white;
+                transition: background 0.3s ease;
+            }
+            .goal-tag {
+                display: inline-block;
+                padding: 5px 15px;
+                background: var(--secondary);
+                border-radius: 20px;
+                margin: 5px;
+                font-size: 0.9em;
+            }
+            .goal-tag:hover {
+                background: var(--hover);
+                color: white;
+                transition: background 0.3s ease;
+            }
+            .Ppic {
+                float: right;
+                margin-left: 20px;
+                border-radius: 50%;
+                margin-right: 20px;
+                border: 2px solid var(--accent);
+                image-rendering: -webkit-optimize-contrast;
+                image-rendering: crisp-edges;
+                transform: scale(1.05);
+            }
+            .mail{
+                text-decoration: none;
+                color: var(--primary);
+                transition: color 0.3s ease;
+            }
+        </style>
+        <title>Bhanendra Kumar - Portfolio</title>
+        <!-- Add this for better mobile viewing -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+            <div class="container">
+                <header>
+                    <h3>WELCOME</h3>
+                    <h1>Bhanendra Kumar</h1>
+                    <p>Web Developer | AI&ML Enthusiast</p>
+                </header>
+                <div class="section">
+                    <img src="shinpei.jpg" alt="pic" width="100" class="Ppic">
+                    <h2>About Me</h2>
+                    <p>My name is Bhanendra Kumar. I am a web developer and a learner.
+                        I'm a Computer Science Engineering student specializing in AI&ML, 
+                        passionate about coding, content creation, and continuous self-improvement.
+                        I am currently learning web development and have a keen interest in exploring new technologies.
+                    </p>
+                    <h2>Goal</h2>
+                    <p class="goal-tag">MY Current Goal Is To Master Core CS and AI/ML Skills</p>
+                    <h2>Skills</h2>
+                    <p class="skill-tag">HTML, CSS, JavaScript, Python</p>
+                    <h2 >Projects</h2>
+                    <p class="project-card">1. Portfolio Website</p>
+                    <p class="project-card"><a href="https://github.com/vali281/discord_bot">2. Discord bot</a></p>
+                </div>
+                <div class="social-links">
+                <h3>Reach me at</h3> 
+                <a href="https://www.linkedin.com/in/bhanendra-kumar-1b0a1b1b8/"><img src="linkedIn_PNG.png" alt="LinkedinImg" width="20">LinkedIn</a>
+                <a href="https://www.instagram.com/bhanendra_rajput/"><img src="Instagram_png.webp" alt="InstagramImg" width="29">Instagram</a>
+                <a href="https://www.facebook.com/profile.php?id=100010509906317"><img src="facebook_png.webp" alt="facebookImgg" width="35">Facebook</a>
+                <a href="https://github.com/vali281"><img src="github.png" alt="GithubImg" width="20">Github</a>
+                <a href="mailto:bhanendrakumar2004@gmail.com" class="mail"> <img src="mail.webp" alt="MailImg" width="25"> Mail</a>
+                </div>
+                <footer>
+                    <p>Copyright &copy;Bhanendra Kumar | All rights Reserved
+                    </p>
+                </footer>
+            </div>
+    </body>
+</html>
